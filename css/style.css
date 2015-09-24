@@ -63,7 +63,8 @@ header ul.main_menu{
 header ul.main_menu li{
     float: left;
 }
-header ul.main_menu li a{
+header ul.main_menu li a,header ul.main_menu li span{
+    cursor: pointer;
     font-size: 11px;
     font-family: "Merel";
     color: rgb(255, 255, 255);
@@ -108,7 +109,7 @@ header .phone a span{
     width: 80px;
     height: 100%;
     min-height: 625px;
-    z-index: 11;
+    z-index: 12;
 }
 .left_nav_fix .nav{
     position: relative;
@@ -177,7 +178,7 @@ header .phone a span{
 .catalog_popup_menu ul li:last-child{
     border: none;
 }
-.catalog_popup_menu ul li a{
+.catalog_popup_menu ul li a,.catalog_popup_menu ul li span{
     padding-left: 30px;
     font-size: 14px;
     font-family: "Merel";

@@ -19,18 +19,19 @@ function owl_portfolio(){
 
 function headerNav(){
     if($(window).width() <= 1024 ){
-         console.log('mobile');
 
-        $('header.wrapper').prepend('<div class="nav_mobile"></div>');
-        var nav = $('.nav_mobile');
+        $('.nav-button').click(function(){
+            $('header .main_menu.menu_copied').toggleClass('active');
+            $(this).toggleClass('active');
+            $('.catalog_popup_menu').removeClass('active');
+        });
+        $('.remov_li').click(function(){
+            $('.catalog_popup_menu').removeClass('active');
+        });
 
-        var navCopy = $('header .main_menu').clone().addClass('menu_copied').height($(window).height());
-        nav.append(navCopy);
-
-        var menu2 = $('.catalog_menu').clone().removeClass('left');
-        nav.find('.main_menu').prepend(menu2);
+        $('header .main_menu.menu_copied').height($(window).height());
     }else{
-        console.log('qweqweqweq');
+
     }
 }
 

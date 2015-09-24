@@ -23,6 +23,37 @@
     <body>
         <div class="global_wrapper project_page">
             <header class="wrapper acl">
+                <div class="nav_mobile">
+                    <ul class="main_menu left menu_copied ">
+                        <li>
+                            <div class="catalog_menu">
+                                <span>каталог  мебели</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">фабрика</a>
+                        </li>
+                        <li>
+                            <a href="#">события</a>
+                        </li>
+                        <li>
+                            <a href="#">проекты</a>
+                        </li>
+                        <li>
+                            <a href="vakancii.php">вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">контакты</a>
+                        </li>
+                        <li>
+                            <a href="#">форма заказа</a>
+                        </li>
+                    </ul>
+                    <div class="nav-button ">
+                        <span class="icon nav-button-icon"></span>
+                    </div>
+                </div>
+
                 <a href="#" class="logo_wrapper left"></a>
                 <div class="catalog_menu left">
                     <a href="#">каталог  мебели</a>
@@ -63,6 +94,7 @@
             </div>
             <div class="catalog_popup_menu">
                 <ul>
+                    <li class="remov_li"><span>Назад</span></li>
                     <li>
                         <a href="#">
                             Кухни
@@ -188,6 +220,16 @@
                 <section>
                     <div class="screen_wrapper" >
                         <div class="progect_fotogalery progect_fotogalery_images">
+                            <div class="progect_fotogalery_row cfix fotogalery_mobile">
+                                <div class="progect_fotogalery_item">
+                                    <div class="progect_fotogalery_item_img">
+                                        <img src="img/project/fotogalery_mobile_img.jpg" alt="">
+                                    </div>
+                                    <div class="progect_fotogalery_item_title">
+                                        Фотогаллерея проекта
+                                    </div>
+                                </div>
+                            </div>
                             <div class="progect_fotogalery_row cfix">
                                 <div class="progect_fotogalery_item_2">
                                     <div class="progect_fotogalery_item_img">
