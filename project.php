@@ -129,7 +129,7 @@
             </div>
             <div class="main_page_one_screen onepage-wrapper project_content_block">
                 <section>
-                    <div class="screen_wrapper first-section" style="background-image: url(img/project/project_img_center.jpg);">
+                    <div class="screen_wrapper first-section project_main_img" style="background-image: url(img/project/project_img_center.jpg);" data-ipad="background-image: url(img/project/project_img_center_ipad.jpg);" data-iphone="background-image: url(img/project/project_img_center_iphone.jpg);">
                         <div class="breadcrumbs">
                             <ul class="acl">
                                 <li>
@@ -148,8 +148,8 @@
                                 Булочная батонофф
                             </div>
                             <div class="project_center_block_subtitle">
-                                Мы рады вам предоставить широкий спектр оказываемых нами услуг<br>
-                                по изготовлению мебели, различной степени сложности.
+                                <p>Мы рады вам предоставить широкий спектр оказываемых нами услуг</p>
+                                <p>по изготовлению мебели, различной степени сложности.</p>
                             </div>
                         </div>
                         <div class="next_slide_wrapper">
@@ -224,6 +224,7 @@
                                 <div class="progect_fotogalery_item">
                                     <div class="progect_fotogalery_item_img">
                                         <img src="img/project/fotogalery_mobile_img.jpg" alt="">
+                                        <img src="img/project/progect_fotogalery_item_img_iphone.jpg" alt="" class="progect_fotogalery_item_img_iphone">
                                     </div>
                                     <div class="progect_fotogalery_item_title">
                                         Фотогаллерея проекта

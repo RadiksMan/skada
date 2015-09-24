@@ -4,7 +4,7 @@ function owl_portfolio(){
     portfolio_owl.owlCarousel({
         margin:0,
         loop:true,
-        autoWidth:true,
+        // autoWidth:true,
         items:1
     });
 
@@ -35,7 +35,23 @@ function headerNav(){
     }
 }
 
+function projectImage(){
+    if($(window).width() <= 768 ){
+        var imgIpad = $('.project_main_img').data('ipad');
+        $('.project_main_img').attr('style',imgIpad);
+    }
+    if($(window).width() <= 320 ){
+        var imgIphone = $('.project_main_img').data('iphone');
+        $('.project_main_img').attr('style',imgIphone);
+    }
+}
+
+
+
+
+
 $(document).ready(function (){
+    projectImage();
     headerNav();
     owl_portfolio();
 });

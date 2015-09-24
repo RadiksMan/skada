@@ -10,14 +10,14 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
-    min-width: 1280px;
+    min-width: 320px;
     position: relative;
     overflow: hidden;
 }
 .wrapper{
     width: 100%;
     max-width: 1920px;
-    min-width: 1280px;
+    min-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;

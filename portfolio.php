@@ -12,16 +12,47 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/style_develop_2.css">
         <link href="img/favicon.ico" rel="shortcut icon">
-        <meta id="viewport" name="viewport" content="width=1366, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <!-- <meta id="viewport" name="viewport" content="width=1366, user-scalable=no">
         <meta name="format-detection" content="telephone=no">
         <meta name="MobileOptimized" content="device-width"/>
-        <meta name="HandheldFriendly" content="true"/>
+        <meta name="HandheldFriendly" content="true"/> -->
         <meta charset="utf-8" />
         <title>Skada</title>
     </head>
     <body>
         <div class="global_wrapper main_page">
             <header class="wrapper acl">
+                <div class="nav_mobile">
+                    <ul class="main_menu left menu_copied ">
+                        <li>
+                            <div class="catalog_menu">
+                                <span>каталог  мебели</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">фабрика</a>
+                        </li>
+                        <li>
+                            <a href="#">события</a>
+                        </li>
+                        <li>
+                            <a href="#">проекты</a>
+                        </li>
+                        <li>
+                            <a href="vakancii.php">вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">контакты</a>
+                        </li>
+                        <li>
+                            <a href="#">форма заказа</a>
+                        </li>
+                    </ul>
+                    <div class="nav-button ">
+                        <span class="icon nav-button-icon"></span>
+                    </div>
+                </div>
                 <a href="#" class="logo_wrapper left"></a>
                 <div class="catalog_menu left">
                     <a href="#">каталог  мебели</a>
@@ -62,6 +93,7 @@
             </div>
             <div class="catalog_popup_menu">
                 <ul>
+                    <li class="remov_li"><span>Назад</span></li>
                     <li>
                         <a href="#">
                             Кухни
@@ -94,7 +126,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="onepage-wrapper non_scroll main_content_block">
+            <div class="onepage-wrapper non_scroll main_content_block portfolio_content_block">
                 <section>
                     <div class="wrapper_ini_blocks wrapper_portfolio cfix">
                         <div class="top_line"></div>
@@ -108,20 +140,44 @@
                                     <div class="portfolio_img full">
                                         <img src="img/portfolio/portfolio_img_1.jpg" alt="">
                                     </div>
-                                </div>
-                                <div class="portfolio_slider_item">
-                                    <div class="portfolio_img full">
-                                        <img src="img/portfolio/portfolio_img_1.jpg" alt="">
+                                    <div class="portfolio_img_ipad_hor">
+                                        <img src="img/portfolio/portfolio_img_ipad_hor.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio_img_iphone">
+                                        <img src="img/portfolio/portfolio_img_iphone.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="portfolio_slider_item">
                                     <div class="portfolio_img full">
                                         <img src="img/portfolio/portfolio_img_1.jpg" alt="">
                                     </div>
+                                    <div class="portfolio_img_ipad_hor">
+                                        <img src="img/portfolio/portfolio_img_ipad_hor.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio_img_iphone">
+                                        <img src="img/portfolio/portfolio_img_iphone.jpg" alt="">
+                                    </div>
                                 </div>
                                 <div class="portfolio_slider_item">
                                     <div class="portfolio_img full">
                                         <img src="img/portfolio/portfolio_img_1.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio_img_ipad_hor">
+                                        <img src="img/portfolio/portfolio_img_ipad_hor.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio_img_iphone">
+                                        <img src="img/portfolio/portfolio_img_iphone.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="portfolio_slider_item">
+                                    <div class="portfolio_img full">
+                                        <img src="img/portfolio/portfolio_img_1.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio_img_ipad_hor">
+                                        <img src="img/portfolio/portfolio_img_ipad_hor.jpg" alt="">
+                                    </div>
+                                    <div class="portfolio_img_iphone">
+                                        <img src="img/portfolio/portfolio_img_iphone.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -147,31 +203,35 @@
                                 </div>
                                 <div class="portfolio_harakt">
                                     <div class="portfolio_subtitle">Характеристики:</div>
-                                    <div class="portfolio_harakt_row_wrap">
-                                        <div class="portfolio_harakt_row cfix">
-                                            <div class="phr_left"><span>Тип мебели</span></div>
-                                            <div class="phr_center"></div>
-                                            <div class="phr_right"><span>Камод</span></div>
+                                    <div class="portfolio_harakt_row_wrap cfix">
+                                        <div class="port_fl">
+                                            <div class="portfolio_harakt_row cfix ">
+                                                <div class="phr_left"><span>Тип мебели</span></div>
+                                                <div class="phr_center"></div>
+                                                <div class="phr_right"><span>Камод</span></div>
+                                            </div>
+                                            <div class="portfolio_harakt_row cfix">
+                                                <div class="phr_left"><span>Назначение </span></div>
+                                                <div class="phr_center"></div>
+                                                <div class="phr_right"><span>Гостинная</span></div>
+                                            </div>
+                                            <div class="portfolio_harakt_row cfix">
+                                                <div class="phr_left"><span>Материал</span></div>
+                                                <div class="phr_center"></div>
+                                                <div class="phr_right"><span>Мореный дуб</span></div>
+                                            </div>
                                         </div>
-                                        <div class="portfolio_harakt_row cfix">
-                                            <div class="phr_left"><span>Назначение </span></div>
-                                            <div class="phr_center"></div>
-                                            <div class="phr_right"><span>Гостинная</span></div>
-                                        </div>
-                                        <div class="portfolio_harakt_row cfix">
-                                            <div class="phr_left"><span>Материал</span></div>
-                                            <div class="phr_center"></div>
-                                            <div class="phr_right"><span>Мореный дуб</span></div>
-                                        </div>
-                                        <div class="portfolio_harakt_row cfix">
-                                            <div class="phr_left"><span>Покрытие</span></div>
-                                            <div class="phr_center"></div>
-                                            <div class="phr_right"><span>Акриловое</span></div>
-                                        </div>
-                                        <div class="portfolio_harakt_row cfix">
-                                            <div class="phr_left"><span>Размер</span></div>
-                                            <div class="phr_center"></div>
-                                            <div class="phr_right"><span>195х152х54см</span></div>
+                                        <div class="port_fr">
+                                            <div class="portfolio_harakt_row cfix">
+                                                <div class="phr_left"><span>Покрытие</span></div>
+                                                <div class="phr_center"></div>
+                                                <div class="phr_right"><span>Акриловое</span></div>
+                                            </div>
+                                            <div class="portfolio_harakt_row cfix">
+                                                <div class="phr_left"><span>Размер</span></div>
+                                                <div class="phr_center"></div>
+                                                <div class="phr_right"><span>195х152х54см</span></div>
+                                            </div>
                                         </div>
 
 
