@@ -12,11 +12,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/style_develop_2.css">
         <link href="img/favicon.ico" rel="shortcut icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-<!--         <meta id="viewport" name="viewport" content="width=1366, user-scalable=no">
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
         <meta name="format-detection" content="telephone=no">
-        <meta name="MobileOptimized" content="device-width"/>
-        <meta name="HandheldFriendly" content="true"/> -->
         <meta charset="utf-8" />
         <title>Skada</title>
     </head>
@@ -278,6 +275,7 @@
         <script src="js/masx.js"></script>
         <script src="js/forms.js"></script>
         <script src="ajax/ajax.js"></script>
+        <script src="js/plugins-scroll.js"></script>
         <script src="js/main.js"></script>
         <script src="js/main_develop_2.js"></script>
         <script src="js/left_menu.js"></script>

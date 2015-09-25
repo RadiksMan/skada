@@ -15,11 +15,19 @@ $(document).ready(function (){
         $('.main_page_one_screen').css('height',$(window).height());
     }
 
+    var itemsServices = 5;
+    if($(window).width()<=1024){
+        itemsServices = 3;
+    }
+    if($(window).width()<=320){
+            itemsServices = 1;
+    }
+
     var owl = $('.slider_wrapper .horis_slider_services').owlCarousel({
         margin:0,
         loop:true,
-        autoWidth:true,
-        items:5
+        autoWidth:false,
+        items:itemsServices
     });
     owl.on('mousewheel', '.owl-stage', function (e) {
         if (e.deltaY>0) {
@@ -35,7 +43,10 @@ $(document).ready(function (){
     $('.wrapper_services_inputs .slider_wrapper .next').click(function(){
         owl.trigger('next.owl');
     });
+
     $('.services_colection').freetile();
+
+
     var works_owl= $('.works_slider_wrapper').owlCarousel({
         margin:0,
         loop:true,

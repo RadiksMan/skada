@@ -12,16 +12,44 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/style_develop_2.css">
         <link href="img/favicon.ico" rel="shortcut icon">
-        <meta id="viewport" name="viewport" content="width=1366, user-scalable=no">
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
         <meta name="format-detection" content="telephone=no">
-        <meta name="MobileOptimized" content="device-width"/>
-        <meta name="HandheldFriendly" content="true"/>
         <meta charset="utf-8" />
         <title>Skada</title>
     </head>
-    <body>
+    <body class="not_overflow">
         <div class="global_wrapper main_page">
             <header class="wrapper acl">
+                <div class="nav_mobile">
+                    <ul class="main_menu left menu_copied ">
+                        <li>
+                            <div class="catalog_menu">
+                                <span>каталог  мебели</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">фабрика</a>
+                        </li>
+                        <li>
+                            <a href="#">события</a>
+                        </li>
+                        <li>
+                            <a href="#">проекты</a>
+                        </li>
+                        <li>
+                            <a href="vakancii.php">вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">контакты</a>
+                        </li>
+                        <li>
+                            <a href="#">форма заказа</a>
+                        </li>
+                    </ul>
+                    <div class="nav-button ">
+                        <span class="icon nav-button-icon"></span>
+                    </div>
+                </div>
                 <a href="#" class="logo_wrapper left"></a>
                 <div class="catalog_menu left">
                     <a href="#">каталог  мебели</a>
@@ -62,6 +90,7 @@
             </div>
             <div class="catalog_popup_menu">
                 <ul>
+                    <li class="remov_li"><span>Назад</span></li>
                     <li>
                         <a href="#">
                             Кухни
@@ -94,7 +123,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="onepage-wrapper non_scroll main_content_block">
+            <div class="onepage-wrapper non_scroll main_content_block services_inputs_content_block">
                 <section>
                     <div class="wrapper_ini_blocks">
                         <div class="top_line"></div>
@@ -299,6 +328,7 @@
         <script src="js/masx.js"></script>
         <script src="js/forms.js"></script>
         <script src="ajax/ajax.js"></script>
+        <script src="js/plugins-scroll.js"></script>
         <script src="js/main.js"></script>
         <script src="js/main_develop_2.js"></script>
         <script src="js/left_menu.js"></script>
